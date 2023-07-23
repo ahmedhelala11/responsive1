@@ -1,0 +1,66 @@
+:root{
+    --green: #88f391; 
+    --blue: #f86706;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+header{
+    height: 750px;
+    background-color: #88f391;
+}
+ul li{
+    list-style-type: none;
+}
+.ahmed-helal{
+
+}
+.ahmed-helal h1{
+    margin-bottom: 20px;
+    font-size: 80px;
+    text-transform: capitalize;
+    color: white;
+}
+.ahmed-helal p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.btn{
+    border: 3px solid white;
+    border-radius: 1.5rem;
+
+}
+#myname{
+    background-image: linear-gradient(rgba(22,219,147,0.9),rgba(22,219,147,0.9)),
+    url("section-6-bg.jpg")   ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+}
+
+
+
+
+/* section 7 */
+.pricing-item{
+    border-radius: 0.3rem;
+    overflow: hidden;
+    max-width: 340px;
+
+}
+.pricing-title{
+    background-color: #125c2e;
+}
+.pricing-price, .pricing-item ul li{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 0.9rem 0;
+    
+}
+.pricing-item .btn:hover{
+    background: transparent!important;
+    color: #fff;
+}
+
